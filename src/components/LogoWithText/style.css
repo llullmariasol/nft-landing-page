@@ -1,0 +1,26 @@
+.logo-with-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--color-dark-3);
+  padding: 32px;
+}
+
+.logo-with-text__image {
+  width: 53px;
+}
+
+.logo-with-text__title {
+  color: var(--color-light-1);
+}
+
+.logo-with-text__text {
+  color: var(--color-light-3);
+}
+
+@media (min-width: 576px) {
+  .logo-with-text {
+    border-radius: 16px;
+    padding: 48px;
+  }
+}

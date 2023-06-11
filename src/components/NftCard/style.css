@@ -1,0 +1,64 @@
+.nft-card {
+  padding-top: 24px;
+  background-color: var(--color-dark-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 312px;
+  border-radius: 16px;
+}
+
+.nft-card__image {
+  max-height: 192px;
+}
+
+.nft-card__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+  gap: 4px;
+}
+
+.nft-card__details :nth-child(2n) {
+  justify-self: end;
+}
+
+.nft-card__details-series {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--color-orange);
+  letter-spacing: 1px;
+}
+
+.nft-card__details-top-bid {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--color-dark-4);
+  letter-spacing: 1px;
+}
+
+.nft-card__details-name {
+  font-size: 18px;
+  color: var(--color-light-1);
+}
+
+.nft-card__details-price {
+  font-size: 18px;
+  color: var(--color-light-1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nft-card__details-number {
+  font-size: 16px;
+  color: var(--color-dark-4);
+}
+
+.nft-card__details-days-left {
+  font-size: 16px;
+  color: var(--color-dark-4);
+}
+
+.nft-card__details-ethereum-logo {
+  height: 18px;
+}

@@ -1,0 +1,11 @@
+.sponsor-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+}
+
+.sponsor-item__logo {
+  max-width: 40px;
+  max-height: 40px;
+}
