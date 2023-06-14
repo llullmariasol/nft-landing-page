@@ -8,14 +8,14 @@ import Nft67890 from '@/assets/nft-67890.png'
 export const nfts = [
   {
     image: Nft12345,
-    name: 'Pinkman',
+    name: 'Ginger',
     price: 2.99,
     daysLeft: 5,
     number: 12345,
   },
   {
     image: Nft11223,
-    name: 'Beige',
+    name: 'Van Gogh',
     price: 1.99,
     daysLeft: 2,
     number: 11223,
@@ -29,7 +29,7 @@ export const nfts = [
   },
   {
     image: Nft67890,
-    name: 'Retro',
+    name: 'Universe',
     price: 2.5,
     daysLeft: 5,
     number: 67890,

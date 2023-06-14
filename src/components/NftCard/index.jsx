@@ -7,7 +7,7 @@ function NftCard(props) {
     <div className="nft-card">
       <img className="nft-card__image" src={image} alt={`nft-card-${name}`} />
       <div className="nft-card__details">
-        <span className="nft-card__details-series">Gloop series</span>
+        <span className="nft-card__details-series">Cat series</span>
         <span className="nft-card__details-top-bid">Top bid</span>
         <span className="nft-card__details-name">{name}</span>
         <span className="nft-card__details-price">

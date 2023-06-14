@@ -33,7 +33,6 @@ function App() {
           descriptionBottom="These will be the only four of these NFTs we ever make, so be sure not to miss out! 50% of proceeds go to charity."
           color="green"
         />
-        <Hero heroImage={heroImg} />
         <div className="App__logo-with-text">
           <LogoWithText
             image={EthColorLogo}
@@ -48,6 +47,7 @@ function App() {
             descriptionBottom="Don't miss out on the release of our new NFT. Sign up below to receive updates when we go live on 18/9.Don't miss out on the release of our new NFT."
           />
         </div>
+        <Hero heroImage={heroImg} />
       </div>
     </div>
   )
